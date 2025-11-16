@@ -5,7 +5,7 @@ import (
 	"net"
 
 	"github.com/labstack/echo/v4"
-	"github.com/sipcapture/homer-app/utils/logger"
+	"github.com/sparkeh/homer-app/utils/logger"
 	"golang.org/x/net/websocket"
 )
 

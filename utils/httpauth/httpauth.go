@@ -1,7 +1,7 @@
 package httpauth
 
 import (
-	"github.com/sipcapture/homer-app/model"
+	"github.com/sparkeh/homer-app/model"
 	"net/http"
 
 	"github.com/go-resty/resty/v2"

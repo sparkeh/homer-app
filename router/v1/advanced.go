@@ -3,9 +3,9 @@ package apirouterv1
 import (
 	"github.com/jinzhu/gorm"
 	"github.com/labstack/echo/v4"
-	"github.com/sipcapture/homer-app/auth"
-	controllerv1 "github.com/sipcapture/homer-app/controller/v1"
-	"github.com/sipcapture/homer-app/data/service"
+	"github.com/sparkeh/homer-app/auth"
+	controllerv1 "github.com/sparkeh/homer-app/controller/v1"
+	"github.com/sparkeh/homer-app/data/service"
 )
 
 func RouteAdvancedApis(acc *echo.Group, configSession *gorm.DB) {

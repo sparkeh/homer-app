@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/sipcapture/homer-app/model"
+	"github.com/sparkeh/homer-app/model"
 )
 
 type ProfileService struct {

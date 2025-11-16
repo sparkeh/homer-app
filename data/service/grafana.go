@@ -7,10 +7,10 @@ import (
 	"strings"
 
 	"github.com/Jeffail/gabs"
-	"github.com/sipcapture/homer-app/config"
-	"github.com/sipcapture/homer-app/model"
-	"github.com/sipcapture/homer-app/system/webmessages"
-	"github.com/sipcapture/homer-app/utils/logger"
+	"github.com/sparkeh/homer-app/config"
+	"github.com/sparkeh/homer-app/model"
+	"github.com/sparkeh/homer-app/system/webmessages"
+	"github.com/sparkeh/homer-app/utils/logger"
 )
 
 // StatisticService : here you tell us what Salutation is

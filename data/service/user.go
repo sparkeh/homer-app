@@ -12,14 +12,14 @@ import (
 	"time"
 
 	"github.com/Jeffail/gabs/v2"
-	"github.com/sipcapture/homer-app/config"
-	"github.com/sipcapture/homer-app/utils/heputils"
-	"github.com/sipcapture/homer-app/utils/httpauth"
-	"github.com/sipcapture/homer-app/utils/logger"
+	"github.com/sparkeh/homer-app/config"
+	"github.com/sparkeh/homer-app/utils/heputils"
+	"github.com/sparkeh/homer-app/utils/httpauth"
+	"github.com/sparkeh/homer-app/utils/logger"
 
-	"github.com/sipcapture/homer-app/auth"
-	"github.com/sipcapture/homer-app/model"
-	"github.com/sipcapture/homer-app/utils/ldap"
+	"github.com/sparkeh/homer-app/auth"
+	"github.com/sparkeh/homer-app/model"
+	"github.com/sparkeh/homer-app/utils/ldap"
 	"golang.org/x/crypto/bcrypt"
 )
 

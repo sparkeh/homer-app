@@ -5,8 +5,8 @@ import (
 
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/labstack/echo/v4"
-	"github.com/sipcapture/homer-app/model"
-	"github.com/sipcapture/homer-app/utils/logger"
+	"github.com/sparkeh/homer-app/model"
+	"github.com/sparkeh/homer-app/utils/logger"
 )
 
 func MiddlewareRes(next echo.HandlerFunc) echo.HandlerFunc {

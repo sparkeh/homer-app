@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/Jeffail/gabs/v2"
-	"github.com/sipcapture/homer-app/model"
-	"github.com/sipcapture/homer-app/utils/heputils"
-	"github.com/sipcapture/homer-app/utils/logger"
+	"github.com/sparkeh/homer-app/model"
+	"github.com/sparkeh/homer-app/utils/heputils"
+	"github.com/sparkeh/homer-app/utils/logger"
 )
 
 type UserSettingsService struct {

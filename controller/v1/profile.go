@@ -5,10 +5,10 @@ import (
 
 	"github.com/Jeffail/gabs/v2"
 	"github.com/labstack/echo/v4"
-	"github.com/sipcapture/homer-app/config"
-	"github.com/sipcapture/homer-app/data/service"
-	httpresponse "github.com/sipcapture/homer-app/network/response"
-	"github.com/sipcapture/homer-app/system/webmessages"
+	"github.com/sparkeh/homer-app/config"
+	"github.com/sparkeh/homer-app/data/service"
+	httpresponse "github.com/sparkeh/homer-app/network/response"
+	"github.com/sparkeh/homer-app/system/webmessages"
 )
 
 type ProfileController struct {

@@ -7,12 +7,12 @@ import (
 
 	"github.com/Jeffail/gabs/v2"
 	"github.com/labstack/echo/v4"
-	"github.com/sipcapture/homer-app/auth"
-	"github.com/sipcapture/homer-app/data/service"
-	"github.com/sipcapture/homer-app/model"
-	httpresponse "github.com/sipcapture/homer-app/network/response"
-	"github.com/sipcapture/homer-app/system/webmessages"
-	"github.com/sipcapture/homer-app/utils/logger"
+	"github.com/sparkeh/homer-app/auth"
+	"github.com/sparkeh/homer-app/data/service"
+	"github.com/sparkeh/homer-app/model"
+	httpresponse "github.com/sparkeh/homer-app/network/response"
+	"github.com/sparkeh/homer-app/system/webmessages"
+	"github.com/sparkeh/homer-app/utils/logger"
 )
 
 type UserSettingsController struct {

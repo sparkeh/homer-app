@@ -3,7 +3,7 @@ package config
 import (
 	"net/http"
 
-	"github.com/sipcapture/homer-app/model"
+	"github.com/sparkeh/homer-app/model"
 	"golang.org/x/oauth2"
 )
 

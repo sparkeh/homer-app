@@ -6,7 +6,7 @@ import (
 
 	"sort"
 
-	"github.com/sipcapture/homer-app/model"
+	"github.com/sparkeh/homer-app/model"
 )
 
 type HepsubsearchService struct {

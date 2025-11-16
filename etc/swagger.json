@@ -5852,7 +5852,7 @@
           "example": "successfully created AgentLocation settings"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "AgentLocationDeleteSuccessResponse": {
       "type": "object",
@@ -5868,7 +5868,7 @@
           "example": "successfully deleted AgentLocation settings"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "AgentLocationUpdateSuccessResponse": {
       "type": "object",
@@ -5884,7 +5884,7 @@
           "example": "successfully updated AgentLocation settings"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "AgentsLocation": {
       "type": "object",
@@ -5945,7 +5945,7 @@
         }
       },
       "x-go-name": "TableAgentLocationSession",
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "AgentsLocationList": {
       "type": "object",
@@ -5959,7 +5959,7 @@
         }
       },
       "x-go-name": "TableAgentLocationSessionList",
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "AliasCreationSuccessResponse": {
       "type": "object",
@@ -5975,7 +5975,7 @@
           "example": "successfully created alias"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "AliasDeleteSuccessResponse": {
       "type": "object",
@@ -5991,7 +5991,7 @@
           "example": "successfully deleted alias"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "AliasStruct": {
       "type": "object",
@@ -6046,7 +6046,7 @@
         }
       },
       "x-go-name": "TableAlias",
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "AliasStructList": {
       "type": "object",
@@ -6060,7 +6060,7 @@
         }
       },
       "x-go-name": "TableAliasList",
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "AliasUpdateSuccessResponse": {
       "type": "object",
@@ -6076,7 +6076,7 @@
           "example": "successfully updated alias"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "AuthToken": {
       "type": "object",
@@ -6191,7 +6191,7 @@
         }
       },
       "x-go-name": "TableAuthToken",
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "AuthTokenCreateSuccessfulResponse": {
       "type": "object",
@@ -6213,7 +6213,7 @@
           "example": "successfully created auth token"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "AuthTokenDeleteSuccessfulResponse": {
       "type": "object",
@@ -6229,7 +6229,7 @@
           "example": "successfully deleted authtoken"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "AuthTokenList": {
       "type": "object",
@@ -6248,7 +6248,7 @@
           "x-go-name": "Data"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "AuthTokenUpdateSuccessfulResponse": {
       "type": "object",
@@ -6264,7 +6264,7 @@
           "example": "successfully updated authtoken"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "AuthTypeList": {
       "type": "object",
@@ -6360,7 +6360,7 @@
           "x-go-name": "Message"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "CallElement": {
       "type": "object",
@@ -6477,7 +6477,7 @@
           "x-go-name": "Table"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "CreateUserStruct": {
       "type": "object",
@@ -6536,7 +6536,7 @@
         }
       },
       "x-go-name": "TableUser",
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "DashboardElement": {
       "type": "object",
@@ -6590,7 +6590,7 @@
         }
       },
       "x-go-name": "DashBoardElement",
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "DashboardElementList": {
       "type": "object",
@@ -6619,7 +6619,7 @@
           "example": 1
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "FailureResponse": {
       "type": "object",
@@ -6642,7 +6642,7 @@
         }
       },
       "x-go-name": "UserTokenBadResponse",
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "File": {
       "type": "object",
@@ -6663,7 +6663,7 @@
           "example": "successfully created GlobalSetting"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "GlobalSettingsDeleteSuccessfulResponse": {
       "type": "object",
@@ -6679,7 +6679,7 @@
           "example": "successfully deleted GlobalSetting"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "GlobalSettingsStruct": {
       "type": "object",
@@ -6718,7 +6718,7 @@
         }
       },
       "x-go-name": "TableGlobalSettings",
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "GlobalSettingsStructList": {
       "type": "object",
@@ -6736,7 +6736,7 @@
           "x-go-name": "Data"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "GlobalSettingsUpdateSuccessfulResponse": {
       "type": "object",
@@ -6752,7 +6752,7 @@
           "example": "successfully updated GlobalSetting"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "GrafanaFolders": {
       "type": "array",
@@ -6814,7 +6814,7 @@
           }
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "GrafanaObject": {
       "type": "object",
@@ -6859,7 +6859,7 @@
           "x-go-name": "Timestamp"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "GrafanaOrg": {
       "type": "object",
@@ -6912,7 +6912,7 @@
           "example": "Expo Superstore"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "GrafanaResponseValue": {
       "type": "object",
@@ -7525,7 +7525,7 @@
           "x-go-name": "Meta"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "GrafanaSearch": {
       "type": "array",
@@ -7596,7 +7596,7 @@
           }
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "GrafanaUrl": {
       "type": "object",
@@ -7607,7 +7607,7 @@
           "example": "localhost:3000"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "HepsubCreateSuccessResponse": {
       "type": "object",
@@ -7623,7 +7623,7 @@
           "example": "successfully created hepsub settings"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "HepsubDeleteSuccessResponse": {
       "type": "object",
@@ -7639,7 +7639,7 @@
           "example": "successfully deleted hepsub settings"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "HepsubSchema": {
       "type": "object",
@@ -7677,7 +7677,7 @@
         }
       },
       "x-go-name": "TableHepsubSchema",
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "HepsubSchemaList": {
       "type": "object",
@@ -7695,7 +7695,7 @@
           "x-go-name": "Data"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "HepsubUpdateSuccessResponse": {
       "type": "object",
@@ -7711,7 +7711,7 @@
           "example": "successfully updated hepsub settings"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "Label": {
       "type": "array",
@@ -7739,7 +7739,7 @@
           }
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "LabelData": {
       "type": "object",
@@ -7757,7 +7757,7 @@
         }
       },
       "x-go-name": "StreamRemoteData",
-      "x-go-package": "github.com/sipcapture/homer-app/data/service"
+      "x-go-package": "github.com/sparkeh/homer-app/data/service"
     },
     "ListExternalUsers": {
       "type": "object",
@@ -7778,14 +7778,14 @@
         }
       },
       "x-go-name": "GetExternalUser",
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "ListLabels": {
       "type": "array",
       "items": {
         "type": "string"
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "ListUsers": {
       "type": "object",
@@ -7806,7 +7806,7 @@
         }
       },
       "x-go-name": "GetUser",
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "MappingCreateSuccessResponse": {
       "type": "object",
@@ -7822,7 +7822,7 @@
           "example": "successfully created mapping settings"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "MappingDeleteSuccessResponse": {
       "type": "object",
@@ -7838,7 +7838,7 @@
           "example": "successfully deleted mapping settings"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "MappingSchema": {
       "type": "object",
@@ -7919,7 +7919,7 @@
         }
       },
       "x-go-name": "TableMappingSchema",
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "MappingSchemaList": {
       "type": "object",
@@ -7938,7 +7938,7 @@
           "x-go-name": "Data"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "MappingUpdateSuccessResponse": {
       "type": "object",
@@ -7954,7 +7954,7 @@
           "example": "successfully updated mapping settings"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "MessageDecoded": {
       "type": "object",
@@ -8552,7 +8552,7 @@
           "x-go-name": "Data"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "Node": {
       "type": "object",
@@ -8607,7 +8607,7 @@
           "example": "de7node"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "NodeList": {
       "type": "object",
@@ -8626,7 +8626,7 @@
           "x-go-name": "Data"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "OAuth2MapToken": {
       "type": "object",
@@ -8654,7 +8654,7 @@
           "x-go-name": "ProfileJson"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "OAuth2TokenExchange": {
       "type": "object",
@@ -8668,7 +8668,7 @@
           "example": "token"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "PCAPResponse": {
       "type": "object",
@@ -8677,7 +8677,7 @@
           "$ref": "#/definitions/File"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "PrometheusObject": {
       "type": "object",
@@ -8732,7 +8732,7 @@
           "x-go-name": "Timestamp"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "PrometheusResponse": {
       "type": "object",
@@ -8794,14 +8794,14 @@
         }
       },
       "x-go-name": "PrometheusResponseValue",
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "RemoteLabels": {
       "type": "array",
       "items": {
         "type": "string"
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "RemoteObject": {
       "type": "object",
@@ -8849,7 +8849,7 @@
           "x-go-name": "Timestamp"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "RemoteResponseData": {
       "type": "object",
@@ -8884,14 +8884,14 @@
           }
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "RemoteValues": {
       "type": "array",
       "items": {
         "type": "string"
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "SearchCallData": {
       "type": "object",
@@ -8922,7 +8922,7 @@
           "example": 45
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "SearchObject": {
       "type": "object",
@@ -9030,7 +9030,7 @@
           "x-go-name": "Timestamp"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "SearchTransaction": {
       "type": "object",
@@ -9074,7 +9074,7 @@
           "x-go-name": "Total"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "SearchTransactionLog": {
       "type": "object",
@@ -9192,7 +9192,7 @@
           "example": 699000
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "SearchTransactionLogList": {
       "type": "object",
@@ -9205,7 +9205,7 @@
           "x-go-name": "Data"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "SearchTransactionQos": {
       "type": "object",
@@ -9217,7 +9217,7 @@
           "$ref": "#/definitions/SearchTransactionRtpList"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "SearchTransactionRequest": {
       "type": "object",
@@ -9364,7 +9364,7 @@
           "x-go-name": "Timestamp"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "SearchTransactionRtcp": {
       "type": "object",
@@ -9482,7 +9482,7 @@
           "example": 699000
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "SearchTransactionRtp": {
       "type": "object",
@@ -9600,7 +9600,7 @@
           "example": 699000
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "SearchTransactionRtpList": {
       "type": "object",
@@ -9614,7 +9614,7 @@
         }
       },
       "x-go-name": "SearchTransactionRtcpList",
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "SmartSearchField": {
       "type": "object",
@@ -9635,7 +9635,7 @@
           "example": "sip.callid"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "SmartSearchFieldList": {
       "type": "object",
@@ -9654,7 +9654,7 @@
           "x-go-name": "Data"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "StatisticDb": {
       "type": "object",
@@ -9732,7 +9732,7 @@
           "example": 1
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "StatisticObject": {
       "type": "object",
@@ -9818,7 +9818,7 @@
           "x-go-name": "Timestamp"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "StatisticRetentions": {
       "type": "object",
@@ -9893,7 +9893,7 @@
           "example": 1
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "StatisticSearchObject": {
       "type": "object",
@@ -9950,7 +9950,7 @@
           "x-go-name": "Timestamp"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "SuccessResponse": {
       "type": "object",
@@ -9978,7 +9978,7 @@
         }
       },
       "x-go-name": "SuccessfulResponse",
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "TableRtpStatsV2": {
       "type": "object",
@@ -10020,7 +10020,7 @@
         }
       },
       "x-go-name": "TableRawData",
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "TextResponse": {
       "type": "object",
@@ -10029,7 +10029,7 @@
           "$ref": "#/definitions/File"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "UserCreateSuccessResponse": {
       "type": "object",
@@ -10046,7 +10046,7 @@
         }
       },
       "x-go-name": "UserCreateSuccessfulResponse",
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "UserDeleteSuccessResponse": {
       "type": "object",
@@ -10063,7 +10063,7 @@
         }
       },
       "x-go-name": "UserDeleteSuccessfulResponse",
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "UserLogin": {
       "type": "object",
@@ -10084,7 +10084,7 @@
         }
       },
       "x-go-name": "UserloginDetails",
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "UserLoginSuccessResponse": {
       "type": "object",
@@ -10114,7 +10114,7 @@
         }
       },
       "x-go-name": "UserTokenSuccessfulResponse",
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "UserProfile": {
       "type": "object",
@@ -10153,7 +10153,7 @@
           "x-go-name": "UserName"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "UserSetting": {
       "type": "object",
@@ -10194,7 +10194,7 @@
           "example": "admin"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "UserSettingCreateSuccessfulResponse": {
       "type": "object",
@@ -10210,7 +10210,7 @@
           "example": "successfully created userObject"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "UserSettingDeleteSuccessfulResponse": {
       "type": "object",
@@ -10226,7 +10226,7 @@
           "example": "successfully deleted userObject"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "UserSettingList": {
       "type": "object",
@@ -10245,7 +10245,7 @@
           "x-go-name": "Data"
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "UserSettingUpdateSuccessfulResponse": {
       "type": "object",
@@ -10261,7 +10261,7 @@
           "example": "successfully updated userObject\""
         }
       },
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "UserSettings": {
       "type": "object",
@@ -10315,7 +10315,7 @@
         }
       },
       "x-go-name": "TableUserSettings",
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "UserUpdateSuccessResponse": {
       "type": "object",
@@ -10332,7 +10332,7 @@
         }
       },
       "x-go-name": "UserUpdateSuccessfulResponse",
-      "x-go-package": "github.com/sipcapture/homer-app/model"
+      "x-go-package": "github.com/sparkeh/homer-app/model"
     },
     "file": {
       "description": "The extra level of indirection ensures that no clients of os\ncan overwrite this data, which could cause the finalizer\nto close the wrong file descriptor.",

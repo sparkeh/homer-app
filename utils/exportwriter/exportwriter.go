@@ -11,8 +11,8 @@ import (
 	"github.com/Jeffail/gabs/v2"
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
-	"github.com/sipcapture/homer-app/utils/heputils"
-	"github.com/sipcapture/homer-app/utils/logger"
+	"github.com/sparkeh/homer-app/utils/heputils"
+	"github.com/sparkeh/homer-app/utils/logger"
 )
 
 //

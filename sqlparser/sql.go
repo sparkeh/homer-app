@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/sipcapture/homer-app/sqlparser/query"
-	"github.com/sipcapture/homer-app/utils/logger"
+	"github.com/sparkeh/homer-app/sqlparser/query"
+	"github.com/sparkeh/homer-app/utils/logger"
 )
 
 // Parse takes a string representing a SQL query and parses it into a query.Query struct. It may fail.

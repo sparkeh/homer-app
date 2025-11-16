@@ -9,7 +9,7 @@ package sipparser
 import (
 	"fmt"
 
-	"github.com/sipcapture/homer-app/utils/sipparser/internal"
+	"github.com/sparkeh/homer-app/utils/sipparser/internal"
 )
 
 type parseFromStateFn func(f *From) parseFromStateFn

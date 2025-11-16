@@ -7,8 +7,8 @@ import (
 	"sort"
 
 	"github.com/Jeffail/gabs/v2"
-	"github.com/sipcapture/homer-app/model"
-	"github.com/sipcapture/homer-app/utils/logger"
+	"github.com/sparkeh/homer-app/model"
+	"github.com/sparkeh/homer-app/utils/logger"
 )
 
 type AuthtokenService struct {

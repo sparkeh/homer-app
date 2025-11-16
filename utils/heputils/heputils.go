@@ -17,7 +17,7 @@ import (
 
 	"github.com/manifoldco/promptui"
 	uuid "github.com/satori/go.uuid"
-	"github.com/sipcapture/homer-app/utils/logger"
+	"github.com/sparkeh/homer-app/utils/logger"
 )
 
 type Color string

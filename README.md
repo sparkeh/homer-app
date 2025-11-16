@@ -6,7 +6,7 @@ This repository hosts `homer-app`, the the GO webapplication for the HEP/HOMER 7
 
 ### Instructions
 
-If you want to install [Homer](https://github.com/sipcapture/homer) please refer to the project [readme](https://github.com/sipcapture/homer)
+If you want to install [Homer](https://github.com/sparkeh/homer) please refer to the project [readme](https://github.com/sparkeh/homer)
 
 If you're just interested in using `homer-app`, download, configure and run the latest release or package.
 
@@ -43,12 +43,12 @@ NOTE: The default location for settings and provisioning files is `/usr/local/ho
 
 <!--
 ## Manual dist
-If you are installing the homer-app manualy, you can download the latest compiled version of the frontend:  https://github.com/sipcapture/homer-app/releases/latest . Once you have download a tar.gz of homer-ui, copy the entire files and directories from the archive to the local dist directory (usualy it's /usr/local/homer/dist, but check your webapp_config.json for a correct path).
-If you want to install the latest master, please go to https://github.com/sipcapture/homer-ui and follow the instruction how to build it using npmn and angular@cli.
+If you are installing the homer-app manualy, you can download the latest compiled version of the frontend:  https://github.com/sparkeh/homer-app/releases/latest . Once you have download a tar.gz of homer-ui, copy the entire files and directories from the archive to the local dist directory (usualy it's /usr/local/homer/dist, but check your webapp_config.json for a correct path).
+If you want to install the latest master, please go to https://github.com/sparkeh/homer-ui and follow the instruction how to build it using npmn and angular@cli.
 
 1.1.32 - an example here. Please use the latest version!
 ```
-wget https://github.com/sipcapture/homer-app/releases/download/1.1.32/homer-ui-7.7.028.tgz
+wget https://github.com/sparkeh/homer-app/releases/download/1.1.32/homer-ui-7.7.028.tgz
 tar xzf homer-ui-7.7.028.tgz
 cp -Rp dist/* /usr/local/homer/dist/
 
@@ -179,7 +179,7 @@ To build a full bundle locally, including the latest frontend code:
 make docker
 ```
 
-For working examples and ready to run recipes see [homer7-docker](https://github.com/sipcapture/homer7-docker/tree/7.7/heplify-server)
+For working examples and ready to run recipes see [homer7-docker](https://github.com/sparkeh/homer7-docker/tree/7.7/heplify-server)
 
 ---
 
@@ -192,7 +192,7 @@ This project is part of HOMER
 #### License & Copyright
 This project is released under the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. 
 
-<a href="https://github.com/sipcapture/homer-app/graphs/contributors">
+<a href="https://github.com/sparkeh/homer-app/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=sipcapture/homer-app" />
 </a>
 

@@ -7,9 +7,9 @@ import (
 	"strings"
 
 	"github.com/Jeffail/gabs/v2"
-	"github.com/sipcapture/homer-app/migration"
-	"github.com/sipcapture/homer-app/model"
-	"github.com/sipcapture/homer-app/utils/logger"
+	"github.com/sparkeh/homer-app/migration"
+	"github.com/sparkeh/homer-app/model"
+	"github.com/sparkeh/homer-app/utils/logger"
 )
 
 type MappingService struct {

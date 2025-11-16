@@ -9,7 +9,7 @@ import (
 	"time"
 
 	rotatelogs "github.com/lestrrat-go/file-rotatelogs"
-	globalConfig "github.com/sipcapture/homer-app/config"
+	globalConfig "github.com/sparkeh/homer-app/config"
 	"github.com/sirupsen/logrus"
 )
 

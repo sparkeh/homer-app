@@ -6,10 +6,10 @@ import (
 
 	"github.com/jinzhu/gorm"
 	"github.com/lib/pq"
-	"github.com/sipcapture/homer-app/migration/jsonschema"
-	"github.com/sipcapture/homer-app/model"
-	"github.com/sipcapture/homer-app/utils/heputils"
-	"github.com/sipcapture/homer-app/utils/logger"
+	"github.com/sparkeh/homer-app/migration/jsonschema"
+	"github.com/sparkeh/homer-app/model"
+	"github.com/sparkeh/homer-app/utils/heputils"
+	"github.com/sparkeh/homer-app/utils/logger"
 	"golang.org/x/crypto/bcrypt"
 )
 

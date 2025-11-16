@@ -4,9 +4,9 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo/v4"
-	"github.com/sipcapture/homer-app/data/service"
-	httpresponse "github.com/sipcapture/homer-app/network/response"
-	"github.com/sipcapture/homer-app/utils/logger"
+	"github.com/sparkeh/homer-app/data/service"
+	httpresponse "github.com/sparkeh/homer-app/network/response"
+	"github.com/sparkeh/homer-app/utils/logger"
 )
 
 type GrafanaController struct {

@@ -1,4 +1,4 @@
-module github.com/sipcapture/homer-app
+module github.com/sparkeh/homer-app
 
 go 1.23.0
 

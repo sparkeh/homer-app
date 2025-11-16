@@ -6,8 +6,8 @@ import (
 
 	"github.com/Jeffail/gabs"
 	client "github.com/influxdata/influxdb1-client/v2"
-	"github.com/sipcapture/homer-app/model"
-	"github.com/sipcapture/homer-app/utils/logger"
+	"github.com/sparkeh/homer-app/model"
+	"github.com/sparkeh/homer-app/utils/logger"
 )
 
 // StatisticService : here you tell us what Salutation is

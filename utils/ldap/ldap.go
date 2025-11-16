@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/sipcapture/homer-app/utils/logger"
+	"github.com/sparkeh/homer-app/utils/logger"
 	"gopkg.in/ldap.v3"
 )
 

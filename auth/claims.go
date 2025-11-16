@@ -4,9 +4,9 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/sipcapture/homer-app/config"
-	"github.com/sipcapture/homer-app/model"
-	"github.com/sipcapture/homer-app/utils/logger"
+	"github.com/sparkeh/homer-app/config"
+	"github.com/sparkeh/homer-app/model"
+	"github.com/sparkeh/homer-app/utils/logger"
 )
 
 // jwt token claims which contains info regarding user
