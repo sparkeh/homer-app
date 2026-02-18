@@ -6,3 +6,4 @@ default.nix
 .direnv.*
 *.deb
 *.rpm
+.DS_Store

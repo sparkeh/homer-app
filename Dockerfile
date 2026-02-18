@@ -13,7 +13,7 @@ RUN make modules && make all
 
 FROM alpine
 WORKDIR /
-RUN apk --update add bash sed
+RUN apk --update add bash sed tshark
 # Create default directories
 RUN mkdir -p /usr/local/homer
 COPY --from=webapi /homer-app/homer-app .
