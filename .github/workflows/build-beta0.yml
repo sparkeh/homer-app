@@ -1,11 +1,12 @@
 name: App Builder Beta
 
 on:
+  workflow_dispatch:
   push:
     branches: [ beta0 ]
+    tags: [ beta0 ]
     paths-ignore:
       - '**.md'
-      - '**.yml'
   pull_request:
     branches: [ beta0 ]
     paths-ignore:
