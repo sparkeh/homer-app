@@ -13,16 +13,25 @@ RUN make modules && make all
 
 FROM alpine
 WORKDIR /
-RUN apk --update add bash sed tshark
-# Create default directories
-RUN mkdir -p /usr/local/homer
+
+RUN apk --update add bash sed tshark libcap shadow
+
+RUN setcap 'CAP_NET_RAW+eip CAP_NET_ADMIN+eip' /usr/bin/tshark && \
+    setcap 'CAP_NET_RAW+eip CAP_NET_ADMIN+eip' /usr/bin/dumpcap && \
+    addgroup -S wireshark || true && \
+    chown root:wireshark /usr/bin/dumpcap && \
+    chmod 755 /usr/bin/tshark
+
+RUN mkdir -p /usr/local/homer /tmp/homer && chmod 777 /tmp/homer
+
 COPY --from=webapi /homer-app/homer-app .
 COPY --from=webapi /homer-app/docker/webapp_config.json /usr/local/homer/etc/webapp_config.json
 COPY --from=webapi /homer-app/swagger.json /usr/local/homer/etc/swagger.json
 COPY --from=webapp /app/dist/homer-ui /usr/local/homer/dist
-# Configure entrypoint
+
 COPY ./docker/docker-entrypoint.sh /
 COPY ./docker/docker-entrypoint.d/* /docker-entrypoint.d/
 RUN chmod +x /docker-entrypoint.d/* /docker-entrypoint.sh
+
 ENTRYPOINT ["/docker-entrypoint.sh"]
 CMD ["/homer-app", "-webapp-config-path=/usr/local/homer/etc"]
